@@ -72,11 +72,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-		<snapshotRepository>
-			<id>SyrahSnapshots</id>
-			<name>artifactory-snapshots</name>
-			<url>http://artifactory.syrah.wine.cf-app.com:8081/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
