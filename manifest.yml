@@ -1,0 +1,8 @@
+---
+applications:
+- name: cloudfoundrysample
+  memory: 512M
+  instances: 2
+  path: ./target/cloudfoundrysample-0.0.1-SNAPSHOT.war
+  services:
+  - joe-mysql
