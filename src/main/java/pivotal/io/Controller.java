@@ -20,6 +20,10 @@ public class Controller {
 	@Autowired
 	private Environment env;
 	
+	@RequestMapping("/reallySayHello")
+	public String reallySayHello() {
+		return "Hello Hello !";
+	}
 	
 	@RequestMapping("/sayHello")
 	public String sayHello() {
